@@ -17,6 +17,30 @@ d'abonnement, pas de publicité, pas de télémétrie.
 
 ---
 
+## Aperçu
+
+<img src="images/01-accueil.png" width="820" alt="Accueil sur PC : les morceaux ajoutés récemment, les plus écoutés et ceux jamais écoutés, calculés sur l'ordinateur sans rien envoyer en ligne.">
+
+*Accueil sur PC : les morceaux ajoutés récemment, les plus écoutés et ceux jamais écoutés, calculés sur l'ordinateur sans rien envoyer en ligne.*
+
+<img src="images/02-bibliotheque.png" width="820" alt="Bibliothèque sur PC : toutes les pistes avec leur album et leur durée, un tri au choix, « Tout lire » et « Mélanger » ; la piste en cours est surlignée.">
+
+*Bibliothèque sur PC : toutes les pistes avec leur album et leur durée, un tri au choix, « Tout lire » et « Mélanger » ; la piste en cours est surlignée.*
+
+<img src="images/03-lecture.png" width="820" alt="Écran de lecture : grande pochette, barre de progression, minuterie d'arrêt et la suite de la file d'attente.">
+
+*Écran de lecture : grande pochette, barre de progression, minuterie d'arrêt et la suite de la file d'attente.*
+
+<img src="images/04-telechargements.png" width="820" alt="Le panneau des téléchargements : en cours, en attente, en échec et terminés, chacun avec ses boutons, et la file retrouvée après une fermeture.">
+
+*Le panneau des téléchargements : en cours, en attente, en échec et terminés, chacun avec ses boutons, et la file retrouvée après une fermeture.*
+
+<img src="images/05-telephone.png" width="280" alt="Co-Musique sur téléphone : l'accueil avec la piste en cours, les raccourcis et la barre de navigation en bas.">
+
+*Co-Musique sur téléphone : l'accueil avec la piste en cours, les raccourcis et la barre de navigation en bas.*
+
+---
+
 ## Le problème que ça résout
 
 Vous avez de la musique. Elle est éparpillée.
