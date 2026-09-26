@@ -6,7 +6,7 @@ garder.**
 Un lecteur audio pour Windows, Linux et Android. Pas de compte, pas
 d'abonnement, pas de publicité, pas de télémétrie.
 
-![version](https://img.shields.io/badge/version-1.6.0-8B929C)
+![version](https://img.shields.io/badge/version-1.7.0-8B929C)
 ![plateformes](https://img.shields.io/badge/Windows%20·%20Linux%20·%20Android-8FA0B5)
 ![bêta](https://img.shields.io/badge/bêta-à%20tester-F5C542)
 
@@ -92,7 +92,7 @@ teintes dans les réglages si ça ne vous va pas.)
 
 ### Windows — le plus simple
 
-Téléchargez `comusique-v1.6.0.exe` et lancez-le. Installation dans votre
+Téléchargez `comusique-v1.7.0.exe` et lancez-le. Installation dans votre
 profil, **aucun droit administrateur**. L'outil de récupération est livré
 avec : la partie « En ligne » marche tout de suite.
 
@@ -102,15 +102,15 @@ avec : la partie « En ligne » marche tout de suite.
 
 ### Android
 
-Installez `comusique-v1.6.0.apk`. Autorisez l'accès aux fichiers audio quand on
+Installez `comusique-v1.7.0.apk`. Autorisez l'accès aux fichiers audio quand on
 vous le demande : sans ça, Android renvoie une liste vide sans rien dire et la
 bibliothèque paraît cassée.
 
 ### Linux
 
 ```bash
-tar xzf comusique-v1.6.0-linux-x64.tar.gz
-cd comusique-v1.6.0-linux-x64
+tar xzf comusique-v1.7.0-linux-x64.tar.gz
+cd comusique-v1.7.0-linux-x64
 ./install.sh          # aucun sudo
 ```
 
