@@ -152,21 +152,6 @@ avec : la partie « En ligne » marche tout de suite.
 > de signature est auto-signé — il met mon nom dans les propriétés du fichier,
 > mais ne crée pas de chaîne de confiance. Autant le dire franchement.
 
-### Windows — version portable (clé USB)
-
-Téléchargez `comusique-v1.10.0-windows-portable.zip`, décompressez-le où vous
-voulez, lancez `comusique.exe`. Au premier lancement, Co-Musique demande :
-
-- **Portable** — tout reste dans un dossier caché `.co-musique` à côté de
-  l'application : réglages, bibliothèque, téléchargements, outils. Rien dans
-  votre profil Windows, rien dans le dossier temporaire. On emporte le dossier,
-  on retrouve tout.
-- **Normal** — la copie se comporte comme la version installée.
-
-Pas d'« exe unique » : ceux qui existent se décompressent dans le dossier
-temporaire à chaque lancement, l'inverse du but recherché. La copie portable
-se met à jour toute seule, en remplaçant ses fichiers, sans rien installer.
-
 ### Android
 
 Installez `comusique-v1.10.0.apk`. Autorisez l'accès aux fichiers audio quand on
