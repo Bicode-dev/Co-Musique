@@ -19,9 +19,9 @@ d'abonnement, pas de publicité, pas de télémétrie.
 
 ## Aperçu
 
-<img src="images/01-accueil.png" width="820" alt="Accueil sur PC : les morceaux ajoutés récemment, les plus écoutés et ceux jamais écoutés, calculés sur l'ordinateur sans rien envoyer en ligne.">
+<img src="images/01-accueil.png" width="820" alt="Accueil sur PC : la piste en cours en grand, avec sa pochette, sa progression et ses commandes, puis six morceaux tirés au hasard et les derniers ajouts.">
 
-*Accueil sur PC : les morceaux ajoutés récemment, les plus écoutés et ceux jamais écoutés, calculés sur l'ordinateur sans rien envoyer en ligne.*
+*Accueil sur PC : la piste en cours en grand, avec sa pochette, sa progression et ses commandes, puis six morceaux tirés au hasard et les derniers ajouts.*
 
 <img src="images/02-bibliotheque.png" width="820" alt="Bibliothèque sur PC : toutes les pistes avec leur album et leur durée, un tri au choix, « Tout lire » et « Mélanger » ; la piste en cours est surlignée.">
 
@@ -35,9 +35,9 @@ d'abonnement, pas de publicité, pas de télémétrie.
 
 *Le panneau des téléchargements : en cours, en attente, en échec et terminés, chacun avec ses boutons, et la file retrouvée après une fermeture.*
 
-<img src="images/05-telephone.png" width="280" alt="Co-Musique sur téléphone : l'accueil avec la piste en cours, les raccourcis et la barre de navigation en bas.">
+<img src="images/05-telephone.png" width="280" alt="Co-Musique sur téléphone : l'accueil avec la piste en cours, et la barre de navigation en verre en bas.">
 
-*Co-Musique sur téléphone : l'accueil avec la piste en cours, les raccourcis et la barre de navigation en bas.*
+*Co-Musique sur téléphone : l'accueil avec la piste en cours, et la barre de navigation en verre en bas.*
 
 ---
 
