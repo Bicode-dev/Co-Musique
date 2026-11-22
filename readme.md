@@ -6,7 +6,7 @@ garder.**
 Un lecteur audio pour Windows, Linux et Android. Pas de compte, pas
 d'abonnement, pas de publicité, pas de télémétrie.
 
-![version](https://img.shields.io/badge/version-1.10.0-8B929C)
+![version](https://img.shields.io/badge/version-1.10.1-8B929C)
 ![plateformes](https://img.shields.io/badge/Windows%20·%20Linux%20·%20Android-8FA0B5)
 ![bêta](https://img.shields.io/badge/bêta-à%20tester-F5C542)
 
@@ -14,34 +14,6 @@ d'abonnement, pas de publicité, pas de télémétrie.
 > Elle marche, mais elle n'a tourné que sur une poignée de machines.
 > **Cassez-la, et dites-moi ce qui vous agace.**
 > → [Comment faire remonter](#-dites-moi-quoi-améliorer) — deux minutes.
-
----
-
-## Aperçu
-
-<img src="images/01-accueil.png" width="820" alt="Accueil sur PC : la piste en cours en grand, six morceaux tirés au hasard, les derniers ajouts ; à droite, le panneau qui réunit la file d'attente et les téléchargements.">
-
-*Accueil sur PC : la piste en cours en grand, six morceaux tirés au hasard, les derniers ajouts ; à droite, le panneau qui réunit la file d'attente et les téléchargements.*
-
-<img src="images/02-bibliotheque.png" width="820" alt="Bibliothèque sur PC : toutes les pistes avec leur pochette, leur album et leur durée, le tri au choix, « Tout lire » et « Mélanger » ; la piste en cours est surlignée.">
-
-*Bibliothèque sur PC : toutes les pistes avec leur pochette, leur album et leur durée, le tri au choix, « Tout lire » et « Mélanger » ; la piste en cours est surlignée.*
-
-<img src="images/03-lecture.png" width="820" alt="Écran de lecture : grande pochette, barre de progression, minuterie d'arrêt et la suite de la file d'attente.">
-
-*Écran de lecture : grande pochette, barre de progression, minuterie d'arrêt et la suite de la file d'attente.*
-
-<img src="images/04-telechargements.png" width="820" alt="Le même panneau, onglet Téléchargements : en cours, en attente, en échec et terminés, chacun avec ses boutons, et la file retrouvée après une fermeture.">
-
-*Le même panneau, onglet Téléchargements : en cours, en attente, en échec et terminés, chacun avec ses boutons, et la file retrouvée après une fermeture.*
-
-<img src="images/05-telephone.png" width="280" alt="Co-Musique sur téléphone : l'accueil avec la piste en cours, et la barre de navigation en verre en bas.">
-
-*Co-Musique sur téléphone : l'accueil avec la piste en cours, et la barre de navigation en verre en bas.*
-
-<img src="images/06-radios.png" width="820" alt="Les radios : recherche pendant la frappe, genres, onglets Découvrir et Favoris, une carte par station avec son format et son débit.">
-
-*Les radios : recherche pendant la frappe, genres, onglets Découvrir et Favoris, une carte par station avec son format et son débit.*
 
 ---
 
@@ -144,7 +116,7 @@ teintes dans les réglages si ça ne vous va pas.)
 
 ### Windows — le plus simple
 
-Téléchargez `comusique-v1.10.0.exe` et lancez-le. Installation dans votre
+Téléchargez `comusique-v1.10.1.exe` et lancez-le. Installation dans votre
 profil, **aucun droit administrateur**. L'outil de récupération est livré
 avec : la partie « En ligne » marche tout de suite.
 
@@ -152,9 +124,26 @@ avec : la partie « En ligne » marche tout de suite.
 > de signature est auto-signé — il met mon nom dans les propriétés du fichier,
 > mais ne crée pas de chaîne de confiance. Autant le dire franchement.
 
+### Windows — version portable (un seul .exe)
+
+Téléchargez `comusique-v1.10.1-standalone-portable.exe`, posez-le où vous
+voulez (une clé USB, par exemple) et lancez-le. Au premier lancement,
+Co-Musique demande :
+
+- **Portable** — tout reste dans un dossier caché `.co-musique` à côté du
+  fichier : réglages, bibliothèque, téléchargements, outils. Rien dans votre
+  profil Windows. On emporte la clé, on retrouve tout.
+- **Normal** — la copie se comporte comme la version installée.
+
+Le fichier contient l'application compressée. Il la prépare **à côté de
+lui**, dans ce dossier caché, et jamais dans le dossier temporaire de
+Windows. Cela prend quelques secondes à la première ouverture d'une version,
+puis les lancements suivants sont immédiats. La copie portable se met à jour
+toute seule, en remplaçant son `.exe`, sans rien installer.
+
 ### Android
 
-Installez `comusique-v1.10.0.apk`. Autorisez l'accès aux fichiers audio quand on
+Installez `comusique-v1.10.1.apk`. Autorisez l'accès aux fichiers audio quand on
 vous le demande : sans ça, Android renvoie une liste vide sans rien dire et la
 bibliothèque paraît cassée.
 
@@ -175,8 +164,8 @@ Il faut relancer l'application après l'avoir accordée.
 ### Linux
 
 ```bash
-tar xzf comusique-v1.10.0-linux-x64.tar.gz
-cd comusique-v1.10.0-linux-x64
+tar xzf comusique-v1.10.1-linux-x64.tar.gz
+cd comusique-v1.10.1-linux-x64
 ./install.sh          # aucun sudo
 ```
 
