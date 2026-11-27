@@ -6,7 +6,7 @@ garder.**
 Un lecteur audio pour Windows, Linux et Android. Pas de compte, pas
 d'abonnement, pas de publicité, pas de télémétrie.
 
-![version](https://img.shields.io/badge/version-1.10.2-8B929C)
+![version](https://img.shields.io/badge/version-1.11.0-8B929C)
 ![plateformes](https://img.shields.io/badge/Windows%20·%20Linux%20·%20Android-8FA0B5)
 ![bêta](https://img.shields.io/badge/bêta-à%20tester-F5C542)
 
@@ -43,6 +43,16 @@ d'abonnement, pas de publicité, pas de télémétrie.
 
 *Les radios : recherche pendant la frappe, genres, onglets Découvrir et Favoris, une carte par station avec son format et son débit.*
 
+<img src="images/07-paroles.png" width="820" alt="Les paroles synchronisées, à la place de la pochette : la ligne chantée est mise en avant et reste au centre, un appui sur une ligne y amène la lecture.">
+
+*Les paroles synchronisées, à la place de la pochette : la ligne chantée est mise en avant et reste au centre, un appui sur une ligne y amène la lecture.*
+
+<img src="images/08-artiste.png" width="820" alt="Le profil d'un artiste dans En ligne : ses morceaux populaires et récents, « Tout lire » et « Mélanger ».">
+
+*Le profil d'un artiste dans En ligne : ses morceaux populaires et récents, « Tout lire » et « Mélanger ».*
+
+*Les artistes, titres, paroles, pochettes et stations de ces captures sont inventés.*
+
 ---
 
 ## Le problème que ça résout
@@ -71,6 +81,14 @@ applications, dont trois veulent un compte et deux vous montrent des pubs.
 
 - **« Lire » joue en ligne tout de suite**, sans rien télécharger — et on peut
   avancer dans le morceau. La flèche à côté le garde hors ligne, en MP3.
+- **Les paroles synchronisées** (écran de lecture, bouton « Paroles ») : la
+  ligne chantée s'allume et reste au centre, un appui sur une ligne y amène
+  la lecture. Elles viennent de LrcLib, une base ouverte et gratuite.
+- **Le profil des artistes** dans « En ligne » : les artistes trouvés par une
+  recherche, et un clic sur un nom ouvre sa page — ses morceaux populaires et
+  récents, à lire d'un coup ou au hasard.
+- **La minuterie s'arrête où vous voulez** : dans 15 à 90 minutes, à la fin du
+  morceau, ou après 2, 3, 5 ou 10 morceaux.
 - **Un accueil qui montre ce qui joue** : la pochette en grand, la progression
   et les commandes, puis vos morceaux au hasard, les ajouts récents, les plus
   écoutés et vos artistes, en images.
@@ -144,7 +162,7 @@ teintes dans les réglages si ça ne vous va pas.)
 
 ### Windows — le plus simple
 
-Téléchargez `comusique-v1.10.2.exe` et lancez-le. Installation dans votre
+Téléchargez `comusique-v1.11.0.exe` et lancez-le. Installation dans votre
 profil, **aucun droit administrateur**. L'outil de récupération est livré
 avec : la partie « En ligne » marche tout de suite.
 
@@ -154,7 +172,7 @@ avec : la partie « En ligne » marche tout de suite.
 
 ### Windows — version portable (un seul .exe)
 
-Téléchargez `comusique-v1.10.2-standalone-portable.exe`, posez-le où vous
+Téléchargez `comusique-v1.11.0-standalone-portable.exe`, posez-le où vous
 voulez (une clé USB, par exemple) et lancez-le. Au premier lancement,
 Co-Musique demande :
 
@@ -171,7 +189,7 @@ toute seule, en remplaçant son `.exe`, sans rien installer.
 
 ### Android
 
-Installez `comusique-v1.10.2.apk`. Autorisez l'accès aux fichiers audio quand on
+Installez `comusique-v1.11.0.apk`. Autorisez l'accès aux fichiers audio quand on
 vous le demande : sans ça, Android renvoie une liste vide sans rien dire et la
 bibliothèque paraît cassée.
 
@@ -192,8 +210,8 @@ Il faut relancer l'application après l'avoir accordée.
 ### Linux
 
 ```bash
-tar xzf comusique-v1.10.2-linux-x64.tar.gz
-cd comusique-v1.10.2-linux-x64
+tar xzf comusique-v1.11.0-linux-x64.tar.gz
+cd comusique-v1.11.0-linux-x64
 ./install.sh          # aucun sudo
 ```
 
