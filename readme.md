@@ -6,7 +6,7 @@ garder.**
 Un lecteur audio pour Windows, Linux et Android. Pas de compte, pas
 d'abonnement, pas de publicité, pas de télémétrie.
 
-![version](https://img.shields.io/badge/version-1.11.0-8B929C)
+![version](https://img.shields.io/badge/version-1.12.0-8B929C)
 ![plateformes](https://img.shields.io/badge/Windows%20·%20Linux%20·%20Android-8FA0B5)
 ![bêta](https://img.shields.io/badge/bêta-à%20tester-F5C542)
 
@@ -35,9 +35,9 @@ d'abonnement, pas de publicité, pas de télémétrie.
 
 *Le même panneau, onglet Téléchargements : en cours, en attente, en échec et terminés, chacun avec ses boutons, et la file retrouvée après une fermeture.*
 
-<img src="images/05-telephone.png" width="280" alt="Co-Musique sur téléphone : l'accueil avec la piste en cours, et la barre de navigation en verre en bas.">
+<img src="images/05-telephone.png" width="280" alt="Co-Musique sur téléphone : l'accueil, le lecteur en capsule (un appui l'ouvre, un glissé change de morceau) et les cinq onglets en verre — Accueil, Bibliothèque, En ligne, Radios, Plus.">
 
-*Co-Musique sur téléphone : l'accueil avec la piste en cours, et la barre de navigation en verre en bas.*
+*Co-Musique sur téléphone : l'accueil, le lecteur en capsule (un appui l'ouvre, un glissé change de morceau) et les cinq onglets en verre — Accueil, Bibliothèque, En ligne, Radios, Plus.*
 
 <img src="images/06-radios.png" width="820" alt="Les radios : recherche pendant la frappe, genres, onglets Découvrir et Favoris, une carte par station avec son format et son débit.">
 
@@ -92,8 +92,12 @@ applications, dont trois veulent un compte et deux vous montrent des pubs.
 - **Un accueil qui montre ce qui joue** : la pochette en grand, la progression
   et les commandes, puis vos morceaux au hasard, les ajouts récents, les plus
   écoutés et vos artistes, en images.
-- **Sur téléphone, une barre de navigation en verre liquide** : la bulle de
-  l'onglet coule d'un onglet à l'autre, et se fait glisser du doigt.
+- **Sur téléphone, tout se fait au pouce** : cinq onglets dans une barre en
+  verre liquide (Accueil, Bibliothèque, En ligne, Radios, Plus), un lecteur
+  en capsule qu'on touche pour ouvrir l'écran de lecture et qu'on glisse sur
+  le côté pour changer de morceau, un écran de lecture qui se redescend du
+  doigt, et le bouton retour d'Android qui revient en arrière au lieu de
+  quitter. L'appui long sur un morceau ouvre ses actions.
 - **Tout ce que vous récupérez est en MP3**, sur PC comme sur téléphone, avec
   son titre, son artiste et sa pochette dans le fichier. Rien à régler.
 - **Co-Musique se tait quand Co-Chan lance un anime** (PC) : la musique se met
@@ -162,7 +166,7 @@ teintes dans les réglages si ça ne vous va pas.)
 
 ### Windows — le plus simple
 
-Téléchargez `comusique-v1.11.0.exe` et lancez-le. Installation dans votre
+Téléchargez `comusique-v1.12.0.exe` et lancez-le. Installation dans votre
 profil, **aucun droit administrateur**. L'outil de récupération est livré
 avec : la partie « En ligne » marche tout de suite.
 
@@ -172,7 +176,7 @@ avec : la partie « En ligne » marche tout de suite.
 
 ### Windows — version portable (un seul .exe)
 
-Téléchargez `comusique-v1.11.0-standalone-portable.exe`, posez-le où vous
+Téléchargez `comusique-v1.12.0-standalone-portable.exe`, posez-le où vous
 voulez (une clé USB, par exemple) et lancez-le. Au premier lancement,
 Co-Musique demande :
 
@@ -189,7 +193,7 @@ toute seule, en remplaçant son `.exe`, sans rien installer.
 
 ### Android
 
-Installez `comusique-v1.11.0.apk`. Autorisez l'accès aux fichiers audio quand on
+Installez `comusique-v1.12.0.apk`. Autorisez l'accès aux fichiers audio quand on
 vous le demande : sans ça, Android renvoie une liste vide sans rien dire et la
 bibliothèque paraît cassée.
 
@@ -210,8 +214,8 @@ Il faut relancer l'application après l'avoir accordée.
 ### Linux
 
 ```bash
-tar xzf comusique-v1.11.0-linux-x64.tar.gz
-cd comusique-v1.11.0-linux-x64
+tar xzf comusique-v1.12.0-linux-x64.tar.gz
+cd comusique-v1.12.0-linux-x64
 ./install.sh          # aucun sudo
 ```
 
@@ -273,7 +277,7 @@ Trois choses, dans l'ordre d'utilité :
 - Le thème monochrome par défaut : trop sobre, ou bien ainsi ?
 - Faut-il un onglet « Découvrir », pour quand on ne sait pas quoi écouter ?
 - Le fondu de fin de piste : utile, ou gadget ?
-- Sur téléphone, la barre du bas à cinq onglets : trop chargée ?
+- Sur téléphone, Listes et Podcasts rangés dans « Plus » : vous les y cherchez ?
 - Les neuf motifs de fond : lesquels ne servent à rien ?
 
 ### Ce que je sais déjà
